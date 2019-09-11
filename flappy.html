@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <div id="myfilter" class="canvas_background_div">
+    </div>
+    <div id="canvascontainer"></div>
+    <button id="upButton" class="upButtonStyle" onmousedown="up(true)" onmouseup="up(false)"
+        style="display:none;">Up</button>
+    <form id="nameForm">
+        <h2>Enter your Name:</h2>
+        <input id="nameField" type="text" name="Name"><br>
+        <button id="myReadyButton" onmousedown="readyForGame()">Ready for game</button>
+    </form>
+
+    <h3>Use the UP button/Space-bar to stay in the air</h3>
+    <h3>How long can you stay alive?</h3>
+</body>
+<script src="./flappy/game.js"></script>
+
+</html>

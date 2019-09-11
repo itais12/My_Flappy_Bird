@@ -1,0 +1,43 @@
+canvas {
+    border: 1px solid #d3d3d3;
+    background: url('./flappy/sky.jpg')
+}
+
+button.upButtonStyle {
+    margin: 4px 225px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 150px;
+    cursor: pointer;
+}
+
+
+input {
+    margin: 4px 150px;
+}
+
+h2 {
+    margin: 4px 150px;
+}
+
+h3 {
+    margin: 4px 120px;
+}
+
+.canvas_background_div {
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.3;
+    width: 550px;
+    height: 480px;
+    display: none;
+}
